@@ -74,10 +74,10 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season_name, internal_hash|
     string_season=season_name.to_s 
     string_season_capitalized= string_season.capitalize 
-    Puts ""
+    Puts "#{string_season_capitalized}"
     internal_hash.each do |holiday_name, holiday_arr|
       holiday_arr.each do |element|
-          final << element
+          
         end
     end
   end
