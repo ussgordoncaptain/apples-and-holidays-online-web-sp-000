@@ -81,8 +81,8 @@ def all_supplies_in_holidays(holiday_hash)
        word.capitalize!
      end
      holiday_STR_final= holiday_STR_arr.join(" ")
-     holiday_arr.join(", ")
-     puts "#{holiday_STR_final"
+     holiday_supplies_final=holiday_arr.join(", ")
+     puts "#{holiday_STR_final}; #{holiday_supplies_final}"
     end
   end
 end
